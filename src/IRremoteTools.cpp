@@ -2,7 +2,7 @@
 #include "RobotIRremoteTools.h"
 #include <Arduino.h>
 
-int RECV_PIN = TKD2; // the pin the IR receiver is connected to
+int RECV_PIN = 1; // the pin the IR receiver is connected to
 IRrecv irrecv(RECV_PIN); // an instance of the IR receiver object
 decode_results results; // container for received IR codes
 
